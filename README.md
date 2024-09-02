@@ -89,18 +89,17 @@ Here is an overview of the project structure:
 graphql
 Copy code
 financial-news-analysis/
+financial-news-analysis/
 │
-├── data/                       # Directory for data files
-├── notebooks/                  # Jupyter notebooks for interactive analysis
-├── scripts/ # Python scripts for data processing and analysis
-│   ├── EDA_task.py   # Script for sentiment analysis
-│   ├── correlation_analysis.py # Script for correlation analysis
-│   └── STK_corr.py   # Script for technical analysis with TA-Lib and PyNance
-├── tests/                      # Unit tests for analysis scripts
-├── .gitignore                  # Git ignore file
-├── README.md                   # Project README
-├── requirements.txt            # Python dependencies
-└── LICENSE                     # License file
+├── data/                 # Directory for data files
+├── notebooks/            # Jupyter notebooks for interactive analysis
+├── scripts/              # Python scripts for data processing and analysis
+├── tests/                # Unit tests for analysis scripts
+├── .gitignore            # Git ignore file
+├── README.md             # Project README
+├── requirements.txt      # Python dependencies
+├── sentiment_analysis.py # Script for sentiment analysis
+└── correlation_analysis.py # Script for correlation analysis
 
 
 Examples
