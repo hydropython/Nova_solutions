@@ -10,6 +10,7 @@ Technical Analysis: Utilizes TA-Lib and PyNance to compute financial indicators 
 Data Visualization: Provides interactive visualizations to help interpret analysis results.
 Correlation Analysis: Calculates the correlation between news sentiment scores and stock returns to identify patterns and trends.
 
+
 Installation
 To set up this project on your local machine, follow these steps:
 
@@ -83,6 +84,7 @@ After running the analysis scripts, use the provided notebooks in the notebooks/
 Project Structure
 Here is an overview of the project structure:
 
+
 graphql
 Copy code
 financial-news-analysis/
@@ -98,6 +100,7 @@ financial-news-analysis/
 ├── README.md                   # Project README
 ├── requirements.txt            # Python dependencies
 └── LICENSE                     # License file
+
 
 Examples
 Running Sentiment Analysis
