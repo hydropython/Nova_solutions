@@ -1,10 +1,10 @@
-Project Overview
-The objective of this project is to leverage sentiment analysis, financial indicators, and correlation analysis to gain insights into the relationship between financial news sentiment and stock market performance. By analyzing historical financial news and stock data, we aim to:
 
-Improve the accuracy of financial forecasts.
-Enhance operational efficiency through better predictive analytics.
-Understand how market sentiment and technical indicators affect stock prices.
+Overview:
+
+The objective of this project is to leverage sentiment analysis, financial indicators, and correlation analysis to gain insights into the relationship between financial news sentiment and stock market performance. 
+
 Features
+
 Sentiment Analysis: Uses NLP techniques to classify the sentiment of financial news headlines as positive, negative, or neutral.
 Technical Analysis: Utilizes TA-Lib and PyNance to compute financial indicators such as Moving Averages, RSI, MACD, Bollinger Bands, and more.
 Data Visualization: Provides interactive visualizations to help interpret analysis results.
@@ -13,6 +13,7 @@ Correlation Analysis: Calculates the correlation between news sentiment scores a
 
 Installation
 To set up this project on your local machine, follow these steps:
+
 
 Clone the repository:
 
