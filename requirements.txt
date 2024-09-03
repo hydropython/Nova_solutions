@@ -1,0 +1,8 @@
+pandas 
+textblob
+plotly.
+nltk
+sklearn.feature_extraction.text
+numpy
+talib
+textblob
