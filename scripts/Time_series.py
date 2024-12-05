@@ -13,18 +13,24 @@ class PublicationAnalysis:
         daily_counts = self.data.resample('D').size()
         
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x=daily_counts.index, y=daily_counts.values, mode='lines+markers', name='Daily Publications',
-                                 line=dict(color='darkgreen', width=2),
-                                 marker=dict(color='yellow', size=6)))
+        fig.add_trace(go.Scatter(
+            x=daily_counts.index, 
+            y=daily_counts.values, 
+            mode='lines+markers', 
+            name='Daily Publications',
+            line=dict(color='darkgreen', width=2),
+            marker=dict(color='yellow', size=6)
+        ))
         
         fig.update_layout(
             title='Daily Publication Frequency',
             xaxis_title='Date',
             yaxis_title='Number of Publications',
-            template='plotly_dark',  # Use dark template for luxury feel
-            title_font=dict(size=24, color='lightgray'),
-            xaxis=dict(tickfont=dict(size=14, color='lightgray')),
-            yaxis=dict(tickfont=dict(size=14, color='lightgray'))
+            title_font=dict(size=24, color='black'),  # Black title font
+            xaxis=dict(tickfont=dict(size=14, color='black')),  # Black axis tick font
+            yaxis=dict(tickfont=dict(size=14, color='black')),  # Black axis tick font
+            plot_bgcolor='white',  # White plot background
+            paper_bgcolor='white'  # White paper background
         )
         
         fig.show()
@@ -43,10 +49,11 @@ class PublicationAnalysis:
         )
         
         fig.update_layout(
-            title_font=dict(size=24, color='lightgray'),
-            xaxis=dict(tickfont=dict(size=14, color='lightgray')),
-            yaxis=dict(tickfont=dict(size=14, color='lightgray')),
-            template='plotly_dark'  # Use dark template for luxury feel
+            title_font=dict(size=24, color='black'),  # Black title font
+            xaxis=dict(tickfont=dict(size=14, color='black')),  # Black axis tick font
+            yaxis=dict(tickfont=dict(size=14, color='black')),  # Black axis tick font
+            plot_bgcolor='white',  # White plot background
+            paper_bgcolor='white'  # White paper background
         )
         
         fig.show()
